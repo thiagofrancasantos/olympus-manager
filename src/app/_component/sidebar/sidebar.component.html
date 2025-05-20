@@ -1,0 +1,9 @@
+<div class="sidebar">
+    <div *ngFor="let item of menuItems" 
+         class="menu-item" 
+         [class.active]="item.id === activeItem"
+         (click)="setActive(item.id)">
+      <span class="material-icons">{{item.icon}}</span>
+      <span class="menu-label">{{item.label}}</span>
+    </div>
+  </div>

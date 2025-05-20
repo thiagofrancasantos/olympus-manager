@@ -1,0 +1,14 @@
+.upbar {
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .upbar-content h2 {
+    margin: 0;
+    color: #003366;
+    font-size: 1.5rem;
+  }

@@ -1,0 +1,20 @@
+
+/* home.component.css */
+.home-container {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    height: 100vh;
+  }
+  
+  .content-area {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  app-main {
+    flex: 1;
+    overflow: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }

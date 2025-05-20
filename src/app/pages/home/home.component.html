@@ -1,1 +1,8 @@
-<p>home works!</p>
+<div class="home-container">
+    <app-sidebar (menuSelected)="onMenuSelected($event)"></app-sidebar>
+    
+    <div class="content-area">
+        <app-upbar [currentView]="currentView"></app-upbar>
+        <app-main [content]="currentContent.main"></app-main>  
+    </div>
+  </div>
